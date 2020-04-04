@@ -1,4 +1,5 @@
 import React from "react";
+
 /*
 	Read a text file and out put the content.
 
@@ -8,7 +9,8 @@ import React from "react";
 	<TextFileReader
 		txt={myTxt}
 	/>
- */
+*/
+
 class TextFileReader extends React.Component {
 	constructor(props) {
 		super(props);
