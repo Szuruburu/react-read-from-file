@@ -1,11 +1,12 @@
 import React from 'react';
-import TextFileReader from './TextFileReader';
+import FileReader from './components/FileReaderFunc';
+//import FileReader from './components/FileReaderClass';
 
 function App() {
 	var myTxt = require("./foo.txt");
 	return (
 		<pre>
-			<TextFileReader
+			<FileReader
 				txt={myTxt}
 			/>
 		</pre>

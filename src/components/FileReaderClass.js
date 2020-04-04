@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 /*
 	Read a text file and out put the content.
